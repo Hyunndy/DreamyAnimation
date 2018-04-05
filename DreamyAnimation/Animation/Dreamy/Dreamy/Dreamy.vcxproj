@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Camera\Camera.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\GameMain.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Landscape\Landscape.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Landscape\Skydome.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\Model.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelAnimation.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelAnimationController.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelAnimationKeyFrames.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelBoneWeights.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelMaterial.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelPart.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelScene.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelSkeleton.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelSkeletonBone.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Blender.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\D2DRender.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\DepthStencil.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Rasterizer.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\RenderTexture.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Sampler.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Texture.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\UserInterface.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\VertexLayout.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Shader\Shader.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\D3D.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Frames.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Keyboard.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Mouse.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\TweakBar.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Window.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Utility\BinaryFile.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Utility\Mesh.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Utility\String.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Camera\Camera.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\GameMain.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Landscape\Landscape.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Landscape\Skydome.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Landscape\SkydomeBuffer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\Model.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelAnimation.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelAnimationController.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelAnimationKeyFrames.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelBoneWeights.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelBuffer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelMaterial.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelPart.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelScene.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelSkeleton.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelSkeletonBone.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelUtility.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Blender.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\D2DRender.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\DepthStencil.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Rasterizer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\RenderTexture.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Sampler.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Texture.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\UserInterface.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\VertexLayout.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Shader\CameraBuffer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Shader\MaterialBuffer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Shader\Shader.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Shader\ShaderBuffer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Shader\SunBuffer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Shader\WorldBuffer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\stdafx.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\D3D.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Frames.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Keyboard.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Mouse.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\TweakBar.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Window.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Utility\BinaryFile.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Utility\Mesh.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Utility\String.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\.gitattributes" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4ACD37B1-C979-416F-84DF-3B3F361F82A1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Dreamy</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files\Autodesk\FBX\FBX SDK\2018.1.1\include;D:\AntTweakBar_116\AntTweakBar\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;d3dx11d.lib;D3DCompiler.lib;dxerr.lib;dxgi.lib;dxguid.lib;dinput8.lib;Effects11d.lib;Effects11.lib;libfbxsdk-md.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\Autodesk\FBX\FBX SDK\2018.1.1\lib\vs2015\x86\debug;C:\Program Files\Autodesk\FBX\FBX SDK\2018.1.1\lib;D:\AntTweakBar_116\AntTweakBar\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>dinput8.lib;d3dx11effects.lib;libfbxsdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\Autodesk\FBX\FBX SDK\2018.1.1\lib\vs2015\x86\release;C:\Program Files\Autodesk\FBX\FBX SDK\2018.1.1\lib;D:\AntTweakBar_116\AntTweakBar\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

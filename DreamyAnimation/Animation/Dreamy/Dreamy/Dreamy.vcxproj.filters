@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Camera\Camera.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Landscape\Landscape.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Landscape\Skydome.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\Model.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelAnimation.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelAnimationController.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelAnimationKeyFrames.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelBoneWeights.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelMaterial.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelPart.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelScene.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelSkeleton.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelSkeletonBone.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Blender.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\D2DRender.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\DepthStencil.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Rasterizer.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\RenderTexture.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Sampler.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Texture.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\UserInterface.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\VertexLayout.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Shader\Shader.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\D3D.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Frames.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Keyboard.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Mouse.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\TweakBar.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Window.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Utility\BinaryFile.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Utility\Mesh.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Utility\String.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\GameMain.cpp" />
+    <ClCompile Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Camera\Camera.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Landscape\Landscape.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Landscape\Skydome.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Landscape\SkydomeBuffer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\Model.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelAnimation.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelAnimationController.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelAnimationKeyFrames.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelBoneWeights.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelBuffer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelMaterial.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelPart.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelScene.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelSkeleton.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelSkeletonBone.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Model\ModelUtility.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Blender.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\D2DRender.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\DepthStencil.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Rasterizer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\RenderTexture.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Sampler.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\Texture.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\UserInterface.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Render\VertexLayout.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Shader\CameraBuffer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Shader\MaterialBuffer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Shader\Shader.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Shader\ShaderBuffer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Shader\SunBuffer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Shader\WorldBuffer.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\D3D.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Frames.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Keyboard.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Mouse.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\TweakBar.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\System\Window.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Utility\BinaryFile.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Utility\Mesh.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\Utility\String.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\GameMain.h" />
+    <ClInclude Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\영상\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\FBX-587ef2d3e98282576a95279952cc6950d4d5d10e\.gitattributes" />
+  </ItemGroup>
+</Project>
