@@ -20,12 +20,12 @@ Blender::Blender()
 	desc.RenderTarget[0].RenderTargetWriteMask = 0x0F;
 
 	hr = D3D::GetDevice()->CreateBlendState(&desc, &linearState);
-	assert(SUCCEEDED(hr));
+	//assert(SUCCEEDED(hr));
 
 
 	desc.RenderTarget[0].BlendEnable = FALSE;
 	hr = D3D::GetDevice()->CreateBlendState(&desc, &offState);
-	assert(SUCCEEDED(hr));
+	//assert(SUCCEEDED(hr));
 }
 
 Blender::~Blender()

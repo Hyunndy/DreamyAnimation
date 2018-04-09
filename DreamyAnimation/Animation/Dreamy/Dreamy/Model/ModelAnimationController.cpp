@@ -35,7 +35,7 @@ void ModelAnimationController::AddAnimation(ModelAnimation * animation)
 			break;
 		}
 	}
-	assert(isExist == false);
+	//assert(isExist == false);
 
 	animations.push_back(Pair(animation->GetName(), animation));
 }

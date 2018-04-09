@@ -68,7 +68,7 @@ void Frames::Print()
 void Frames::Start()
 {
 	if(!isTimerStopped)
-		assert(false);
+		//assert(false);
 
 	QueryPerformanceCounter((LARGE_INTEGER *)&lastTime);
 	isTimerStopped = false;
@@ -76,8 +76,8 @@ void Frames::Start()
 
 void Frames::Stop()
 {
-	if(isTimerStopped)
-		assert(false);
+	//if(isTimerStopped)
+		//assert(false);
     
     INT64 stopTime = 0;
     QueryPerformanceCounter((LARGE_INTEGER *)&stopTime);

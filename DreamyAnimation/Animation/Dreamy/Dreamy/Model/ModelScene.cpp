@@ -20,11 +20,11 @@ ModelScene::ModelScene()
 
 	// SDK Manager 메모리 할당
 	manager = FbxManager::Create();
-	assert(manager != NULL);
+	//assert(manager != NULL);
 
 	// FbxScene 메모리 할당
 	scene = FbxScene::Create(manager, "");
-	assert(scene != NULL);
+	//assert(scene != NULL);
 
 	modelBuffer = new ModelBuffer();
 
@@ -150,10 +150,10 @@ void ModelScene::LoadScene(wstring file, bool isMaterial, bool isSkeleton, bool 
 	*****************************************************************/
 	importer = FbxImporter::Create(manager, "");
 	bool status = importer->Initialize(tempFile.c_str(), -1, ios);
-	assert(status == true);
+	//assert(status == true);
 
 	status = importer->Import(scene);
-	assert(status == true);
+	//assert(status == true);
 
 	ProcessScene(isMaterial, isSkeleton, isMesh, isAnimation);
 
@@ -274,12 +274,12 @@ void ModelScene::ProcessMesh(FbxNode * node)
 		클래스에서 제공한다.
 	***************************************************************/
 	FbxMesh* mesh = node->GetMesh();
-	assert(mesh != NULL);
+	//assert(mesh != NULL);
 
 	// vertexCount에 node가 가지고 있는 제어점 수(정점 갯수)를 가져온다.
 	// 단, mesh는 반드시 존재함으로 vertexCount는 1이상이어야 한다.
 	int vertexCount = mesh->GetControlPointsCount();
-	assert(vertexCount > 0);
+	//assert(vertexCount > 0);
 
 	// ModelBoneWeights를 담고 있는 벡터를 선언하고
 	// 벡터의 초기값으로 vertexCount만큼 ModelBoneWeights를 넣어준다. 

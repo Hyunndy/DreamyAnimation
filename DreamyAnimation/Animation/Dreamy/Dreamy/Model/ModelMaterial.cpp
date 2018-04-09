@@ -99,6 +99,6 @@ void ModelMaterial::CreateView(wstring path, ID3D11ShaderResourceView ** view)
 			, view
 			, NULL
 		);
-		assert(SUCCEEDED(hr));
+		//assert(SUCCEEDED(hr));
 	}
 }

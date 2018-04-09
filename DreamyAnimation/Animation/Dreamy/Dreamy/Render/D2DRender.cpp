@@ -38,7 +38,7 @@ D2DRender::D2DRender(ID3D11ShaderResourceView* resourceView)
 	data.pSysMem = vertex;
 
 	hr = D3D::GetDevice()->CreateBuffer(&desc, &data, &vertexBuffer);
-	assert(SUCCEEDED(hr));
+//	assert(SUCCEEDED(hr));
 
 
 	//2. Index Buffer
@@ -51,7 +51,7 @@ D2DRender::D2DRender(ID3D11ShaderResourceView* resourceView)
 	data.pSysMem = index;
 
 	hr = D3D::GetDevice()->CreateBuffer(&desc, &data, &indexBuffer);
-	assert(SUCCEEDED(hr));
+//	assert(SUCCEEDED(hr));
 
 	SAFE_DELETE_ARRAY(vertex);
 	SAFE_DELETE_ARRAY(index);

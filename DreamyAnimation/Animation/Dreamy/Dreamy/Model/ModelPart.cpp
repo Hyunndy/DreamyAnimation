@@ -111,7 +111,7 @@ void ModelPart::CreateBuffer()
 	data.pSysMem = vertex;
 
 	hr = D3D::GetDevice()->CreateBuffer(&desc, &data, &vertexBuffer);
-	assert(SUCCEEDED(hr));
+	//assert(SUCCEEDED(hr));
 
 
 	//2. Index Buffer
@@ -124,5 +124,5 @@ void ModelPart::CreateBuffer()
 	data.pSysMem = index;
 
 	hr = D3D::GetDevice()->CreateBuffer(&desc, &data, &indexBuffer);
-	assert(SUCCEEDED(hr));
+	//assert(SUCCEEDED(hr));
 }

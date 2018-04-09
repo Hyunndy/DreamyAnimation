@@ -24,7 +24,7 @@ Landscape::Landscape()
 		, &diffuseMap
 		, NULL
 	);
-	assert(SUCCEEDED(hr));
+	//assert(SUCCEEDED(hr));
 
 	materialBuffer = new MaterialBuffer("Landscape");
 	materialBuffer->SetAmbient(D3DXCOLOR(1.0f, 1.0f, 1.0f, 1.0f));
@@ -102,7 +102,7 @@ void Landscape::CreateBuffer()
 	vertexSubResource.pSysMem = vertexData;
 
 	hr = D3D::GetDevice()->CreateBuffer(&vertexDesc, &vertexSubResource, &vertexBuffer);
-	assert(SUCCEEDED(hr));
+	//assert(SUCCEEDED(hr));
 
 
 	D3D11_BUFFER_DESC indexDesc = { 0 };
@@ -114,7 +114,7 @@ void Landscape::CreateBuffer()
 	indexSubResource.pSysMem = indexData;
 
 	hr = D3D::GetDevice()->CreateBuffer(&indexDesc, &indexSubResource, &indexBuffer);
-	assert(SUCCEEDED(hr));
+	//assert(SUCCEEDED(hr));
 }
 
 void Landscape::Update()

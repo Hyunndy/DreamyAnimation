@@ -62,15 +62,15 @@ void D3D::CreateAdapter()
 
 	IDXGIFactory* factory;
 	hr = CreateDXGIFactory(__uuidof(IDXGIFactory), (void **)&factory);
-	assert(SUCCEEDED(hr));
+	//assert(SUCCEEDED(hr));
 
 	IDXGIAdapter* adapter;
 	hr = factory->EnumAdapters(0, &adapter);
-	assert(SUCCEEDED(hr));
+//	assert(SUCCEEDED(hr));
 
 	IDXGIOutput* adapterOutput;
 	hr = adapter->EnumOutputs(0, &adapterOutput);
-	assert(SUCCEEDED(hr));
+//	assert(SUCCEEDED(hr));
 
 	UINT modeCount;
 	hr = adapterOutput->GetDisplayModeList
@@ -80,7 +80,7 @@ void D3D::CreateAdapter()
 		, &modeCount
 		, NULL
 	);
-	assert(SUCCEEDED(hr));
+//	assert(SUCCEEDED(hr));
 
 	DXGI_MODE_DESC* displayModeList = new DXGI_MODE_DESC[modeCount];
 	hr = adapterOutput->GetDisplayModeList
@@ -90,7 +90,7 @@ void D3D::CreateAdapter()
 		, &modeCount
 		, displayModeList
 	);
-	assert(SUCCEEDED(hr));
+	//assert(SUCCEEDED(hr));
 
 	for (UINT i = 0; i < modeCount; i++)
 	{
@@ -107,7 +107,7 @@ void D3D::CreateAdapter()
 
 	DXGI_ADAPTER_DESC adapterDesc;
 	hr = adapter->GetDesc(&adapterDesc);
-	assert(SUCCEEDED(hr));
+//	assert(SUCCEEDED(hr));
 
 	gpuMemorySize = adapterDesc.DedicatedVideoMemory / 1024 / 1024;
 	gpuDescription = adapterDesc.Description;
@@ -164,5 +164,5 @@ void D3D::CreateSwapChain()
 		, NULL
 		, &deviceContext
 	);
-	assert(SUCCEEDED(hr));
+	//assert(SUCCEEDED(hr));
 }

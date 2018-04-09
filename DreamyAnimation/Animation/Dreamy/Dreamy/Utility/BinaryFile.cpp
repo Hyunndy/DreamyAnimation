@@ -16,7 +16,7 @@ BinaryWriter::~BinaryWriter()
 
 void BinaryWriter::Open(wstring filePath, UINT openOption)
 {
-	assert(filePath.length() > 0);
+	//assert(filePath.length() > 0);
 	fileHandle = CreateFile
 	(
 		filePath.c_str()
@@ -30,7 +30,7 @@ void BinaryWriter::Open(wstring filePath, UINT openOption)
 
 
 	bool isChecked = fileHandle != INVALID_HANDLE_VALUE;
-	assert(isChecked);
+	//assert(isChecked);
 }
 
 void BinaryWriter::Close()
@@ -117,7 +117,7 @@ BinaryReader::~BinaryReader()
 
 void BinaryReader::Open(wstring filePath)
 {
-	assert(filePath.length() > 0);
+	//assert(filePath.length() > 0);
 	fileHandle = CreateFile
 	(
 		filePath.c_str()
@@ -131,7 +131,7 @@ void BinaryReader::Open(wstring filePath)
 
 
 	bool isChecked = fileHandle != INVALID_HANDLE_VALUE;
-	assert(isChecked);
+//	assert(isChecked);
 }
 
 void BinaryReader::Close()

@@ -69,7 +69,7 @@ void DepthStencil::CreateTexture()
 
 	HRESULT hr;
 	hr = D3D::GetDevice()->CreateTexture2D(&desc, NULL, &texture);
-	assert(SUCCEEDED(hr));
+//	//assert(SUCCEEDED(hr));
 }
 
 void DepthStencil::CreateOnState()
@@ -95,7 +95,7 @@ void DepthStencil::CreateOnState()
 
 	HRESULT hr;
 	hr = D3D::GetDevice()->CreateDepthStencilState(&desc, &onState);
-	assert(SUCCEEDED(hr));
+	////assert(SUCCEEDED(hr));
 
 	D3D::GetDeviceContext()->OMSetDepthStencilState(onState, 1);
 }
@@ -120,17 +120,17 @@ void DepthStencil::CreateOffState()
 
 	HRESULT hr;
 	hr = D3D::GetDevice()->CreateDepthStencilState(&desc, &offState);
-	assert(SUCCEEDED(hr));
+	//assert(SUCCEEDED(hr));
 }
 
 void DepthStencil::CreateRenderTarget()
 {
 	ID3D11Texture2D* backbufferPointer;
 	HRESULT hr = D3D::Get()->GetSwapChain()->GetBuffer(0, __uuidof(ID3D11Texture2D), (void **)&backbufferPointer);
-	assert(SUCCEEDED(hr));
+	//assert(SUCCEEDED(hr));
 
 	hr = D3D::GetDevice()->CreateRenderTargetView(backbufferPointer, NULL, &renderView);
-	assert(SUCCEEDED(hr));
+	//assert(SUCCEEDED(hr));
 	SAFE_RELEASE(backbufferPointer);
 }
 
@@ -143,7 +143,7 @@ void DepthStencil::CreateView()
 	desc.Texture2D.MipSlice = 0;
 
 	HRESULT hr = D3D::GetDevice()->CreateDepthStencilView(texture, &desc, &depthView);
-	assert(SUCCEEDED(hr));
+	//assert(SUCCEEDED(hr));
 
 	D3D::GetDeviceContext()->OMSetRenderTargets(1, &renderView, depthView);
 }

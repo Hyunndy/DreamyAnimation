@@ -15,14 +15,14 @@ void GameMain::Initialize()
 	skydome = new Skydome();
 	landscape = new Landscape();
 
-	wstring filePath = L"./Contents/Models/Sword and Shield Pack/";
+	wstring filePath = L"../Dreamy/Contents/Models/Sword and Shield Pack/";
 
 	//model = new ModelScene(L"./Contents/Models/Box.fbx");
 	//model = new ModelScene(L"./Contents/Models/Rock_01.fbx");
 
-	tPosePath = filePath + L"paladin_prop_j_nordstrom.fbx";
-	idlePath  = filePath + L"sword and shield idle.fbx";
-	runPath = filePath + L"sword and shield run.fbx";
+	tPosePath = filePath + L"Horse.fbx";
+	idlePath  = filePath + L"Horse_Idle.fbx";
+	runPath = filePath + L"Horse_Run.fbx";
 	attackPath = filePath + L"sword and shield attack.fbx";
 
 	model = new ModelScene();
